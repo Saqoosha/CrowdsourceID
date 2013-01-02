@@ -1,0 +1,231 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2915689C1655DE6400EBC810 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2915689B1655DE6400EBC810 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		291568971655DE6400EBC810 /* CroudsourceID */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CroudsourceID; sourceTree = BUILT_PRODUCTS_DIR; };
+		2915689B1655DE6400EBC810 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		291568D21656B2B300EBC810 /* picojson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = picojson.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		291568941655DE6400EBC810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2915688C1655DE6400EBC810 = {
+			isa = PBXGroup;
+			children = (
+				2915689A1655DE6400EBC810 /* CroudsourceID */,
+				291568981655DE6400EBC810 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		291568981655DE6400EBC810 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				291568971655DE6400EBC810 /* CroudsourceID */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2915689A1655DE6400EBC810 /* CroudsourceID */ = {
+			isa = PBXGroup;
+			children = (
+				2915689B1655DE6400EBC810 /* main.cpp */,
+				291568D21656B2B300EBC810 /* picojson.h */,
+			);
+			path = CroudsourceID;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		291568961655DE6400EBC810 /* CroudsourceID */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 291568A11655DE6500EBC810 /* Build configuration list for PBXNativeTarget "CroudsourceID" */;
+			buildPhases = (
+				291568931655DE6400EBC810 /* Sources */,
+				291568941655DE6400EBC810 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CroudsourceID;
+			productName = CroudsourceID;
+			productReference = 291568971655DE6400EBC810 /* CroudsourceID */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2915688E1655DE6400EBC810 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Saqoosha;
+			};
+			buildConfigurationList = 291568911655DE6400EBC810 /* Build configuration list for PBXProject "CroudsourceID" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2915688C1655DE6400EBC810;
+			productRefGroup = 291568981655DE6400EBC810 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				291568961655DE6400EBC810 /* CroudsourceID */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		291568931655DE6400EBC810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2915689C1655DE6400EBC810 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2915689F1655DE6400EBC810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		291568A01655DE6400EBC810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		291568A21655DE6500EBC810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					/usr/local/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-lopencv_core",
+					"-lopencv_flann",
+					"-lopencv_highgui",
+					"-lopencv_imgproc",
+					"-lopencv_video",
+					"-lPocoFoundation",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		291568A31655DE6500EBC810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					/usr/local/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-lopencv_core",
+					"-lopencv_flann",
+					"-lopencv_highgui",
+					"-lopencv_imgproc",
+					"-lopencv_video",
+					"-lPocoFoundation",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		291568911655DE6400EBC810 /* Build configuration list for PBXProject "CroudsourceID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2915689F1655DE6400EBC810 /* Debug */,
+				291568A01655DE6400EBC810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		291568A11655DE6500EBC810 /* Build configuration list for PBXNativeTarget "CroudsourceID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				291568A21655DE6500EBC810 /* Debug */,
+				291568A31655DE6500EBC810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2915688E1655DE6400EBC810 /* Project object */;
+}

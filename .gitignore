@@ -1,0 +1,17 @@
+# https://github.com/abraxor/Xcode-gitignore/blob/master/.gitignore
+# Mac OS X
+.DS_Store
+*.swp
+*~.nib
+
+build/
+adhoc/
+
+.xcodeproj/ !*.xcodeproj/project.pbxproj
+
+*.mode1v3
+*.mode2v3
+
+build/
+
+xcuserdata
